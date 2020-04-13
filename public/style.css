@@ -1,0 +1,46 @@
+.center-text {
+  text-align: center;
+}
+* {
+  margin: 0;
+  box-sizing: border-box;
+  font-family: Arial, Helvetica, sans-serif;
+}
+h1 {
+  font-family: "Fredoka One", cursive;
+}
+.background-image {
+  background-image: url("https://picsum.photos/720/720");
+  opacity: 0.5;
+  position: absolute;
+  left: 0;
+  bottom: 0;
+  right: 0;
+  top: 0;
+  z-index: -1;
+}
+.splash-image-container {
+  position: relative;
+  height: 100vh;
+}
+.center-content {
+  display: grid;
+  place-items: center center;
+}
+.items-horizontal {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+.image-wrapper {
+  height: 192px;
+  width: 156px;
+}
+.image-wrapper img {
+  height: 100%;
+  width: 100%;
+}
+.above-the-fold-content,
+.below-the-fold-content {
+  height: 100vh;
+}
